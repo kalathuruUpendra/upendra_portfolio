@@ -8,18 +8,19 @@ export default function Projects() {
   return (
     <>
       <NextSeo
-        title="Projects by Amit Chauhan - Software Developer Portfolio"
-        description="Explore a collection of projects by Amit Chauhan, a seasoned Software Developer. From innovative web applications to responsive interfaces, discover the depth and diversity of my work."
+        title="Projects by Kalathuru Upendra - Computer Science Student Portfolio"
+        description="Explore a collection of projects by Kalathuru Upendra , a seasoned Software Developer. From innovative web applications to responsive interfaces, discover the depth and diversity of my work."
         canonical={`${siteMetadata.siteUrl}/projects`}
         openGraph={{
           url: `${siteMetadata.siteUrl}/projects`,
-          title: "Discover Projects by Amit Chauhan - Software Developer",
+          title:
+            "Discover Projects by Kalathuru Upendra - Computer Science Student",
           description:
-            "Explore a showcase of projects crafted by Amit Chauhan, a Software Developer. Witness the fusion of creativity and technology in web development.",
+            "Explore a showcase of projects crafted by Kalathuru Upendra , a student at Lingayas Institute of Management and Technology. Witness the fusion of creativity and technology in Mobile Application Development.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "Amit Chauhan - Portfolio Image",
+              alt: "Kalathuru Upendra  - Portfolio Image",
             },
           ],
           siteName: siteMetadata.siteName,
@@ -32,7 +33,7 @@ export default function Projects() {
           {
             property: "keywords",
             content:
-              "Projects,Amit Portfolio, Software Developer, React Developer, Frontend Developer, Web Development, JavaScript, HTML, CSS, UI/UX, Web Applications, Responsive Design",
+              "Projects,Upendra Portfolio, Software Developer, React Developer, Frontend Developer, Mobile Application Development, JavaScript, HTML, CSS, UI/UX, Web Applications, Responsive Design",
           },
         ]}
       />

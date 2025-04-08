@@ -2,36 +2,36 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EDUCATION: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Bachelor Of Engineering in Electronics and Telecommunication",
+    title: "Bachelor Of Technology in Computer Science and Engineering",
     organisation: {
-      name: "Rizvi College Of Engineering",
-      href: "https://eng.rizvi.edu.in/",
+      name: "Lingayas Institute of Management and Technology",
+      href: "https://limat.edu.in",
     },
-    date: "2019-2023",
-    location: "Bandra, Mumbai",
+    date: "2022-2026",
+    location: "Vijayawada, Andhra Pradesh",
     description:
       "Relevant courses included Data Structures and Algorithms, Web Design, Cloud Computing, Artificial Neural Network and Database Management.",
   },
   {
-    title: "Higher Secondary School",
+    title: "Mathematics Physics Chemistry",
     organisation: {
-      name: "Mithibai College",
-      href: "https://www.mithibai.ac.in/",
+      name: "AP Balayogi Gurukulam",
+      href: "https://www.apswrs.ac.in/",
     },
-    date: "2016-2018",
-    location: "Vile Parle, Mumbai",
+    date: "2020-2022",
+    location: "Kurnool, Andhra Pradesh",
     description:
-      "Completed the course in Electronics Bifocal Science with 68%. Started freelancing making 3D assets for games. Got interested in game development and learned unity and c#",
+      "Completed the course in MPC with 88.3%. Got interested in Application development and learned React",
   },
   {
     title: "Secondary School Education",
     organisation: {
-      name: "Holy Family High School",
-      href: "https://holyfamilyandheri.org/",
+      name: "APSWRS School",
+      href: "https://apswries.org/",
     },
-    date: "2017-2018",
-    location: "Andheri, Mumbai",
+    date: "2014-2020",
+    location: "Chittoor, Andhra Pradesh",
     description:
-      "Learned good values,dedication and disciplne. Played district football for 5 years.",
+      "Completed SSS with 10/10 GPA. Learned good values,dedication and disciplne. Played district football for 5 years.",
   },
 ];

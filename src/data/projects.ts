@@ -5,9 +5,18 @@ import { siteMetadata } from "@/data/siteMetaData.mjs";
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
     index: 0,
-    title: "Json Tree",
+    title: "TruRide Mobile Application",
     href: "/projects",
-    tags: ["Nextjs", "Tailwindcss", "Monaco Editor", "Vercel"],
+    tags: [
+      "ReactNative",
+      "TypeScript",
+      "MongoDB",
+      "Kotlin",
+      "Firebase",
+      "Nodejs",
+      "Expressjs",
+      "Figma",
+    ],
     image: {
       LIGHT: "/images/projects/jsontreeLight.webp",
       DARK: "/images/projects/jsontreeDark.webp",
@@ -15,16 +24,16 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   },
   {
     index: 1,
-    title: "Many Games",
+    title: "Text Emotion Detection",
     href: "/projects",
     tags: [
-      "Reactjs",
+      "HTML",
       "Tailwindcss",
       "Scss",
       "Vite",
       "React-router-dom",
       "Redux",
-      "Vercel",
+      "Flask Micro Framework",
     ],
     image: {
       LIGHT: "/images/projects/manyGamesLight.webp",
@@ -33,9 +42,9 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   },
   {
     index: 2,
-    title: "Kanban",
+    title: "AI Chatbot",
     href: "/projects",
-    tags: ["Reactjs", "Vite", "Tailwindcss", "Vercel", "Zustand", "React DND"],
+    tags: ["APIs", "Python", "HTML", "Vercel", "Zustand", "React DND"],
     image: {
       LIGHT: "/images/projects/kanbanLight.webp",
       DARK: "/images/projects/kanbanDark.webp",
@@ -45,19 +54,19 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
-    name: "Json tree",
+    name: "TruRide Mobile Application",
     favicon: "/images/projects/logos/jsontree.ico",
     imageUrl: [
       "/images/projects/jsontreeLight.webp",
       "/images/projects/jsontreeDark.webp",
     ],
     description:
-      "Visualize JSON data format in form of a tree or graph. Application is made using Nextjs, Tailwindcss and Monaco Editor. Design image can be downloaded from this app.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/jsontree",
-    liveWebsiteHref: "https://jsontree.vercel.app",
+      "It is a innovation from Rapido and Uber transport technologies.",
+    sourceCodeHref: "https://github.com/BUMBAIYA/jsontre",
+    liveWebsiteHref: "https://jsontree.vercel.ap",
   },
   {
-    name: "Kanban app",
+    name: "Text Emotion Detection",
     favicon: "/images/projects/logos/kanban.ico",
     imageUrl: [
       "/images/projects/kanbanLight.webp",
@@ -65,12 +74,12 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "/images/projects/kanbanCardLight.webp",
     ],
     description:
-      "Keep track of projects and tasks in different categories. Drag and drop card from tables. Assign user and priority to task and many more features. This app is made using Reactjs, Typescript, Tailwindcss and React-beautiful-dnd library.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/kanban",
-    liveWebsiteHref: "https://kannban-board.vercel.app",
+      "It is emotion capturer from given text, so that any AI ChatBots can understand the emotion in our prompt.",
+    sourceCodeHref: "https://github.com/BUMBAIYA/kanba",
+    liveWebsiteHref: "https://kannban-board.vercel.ap",
   },
   {
-    name: "Many Games",
+    name: "AI Chatbot",
     favicon: "/images/projects/logos/manygames.ico",
     imageUrl: [
       "/images/projects/manyGamesDark.webp",
@@ -80,9 +89,9 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "/images/projects/manyGamesWordle.webp",
     ],
     description:
-      "Many short and fun games using Reactjs, Typescript and Tailwindcss with collaboration with other developers",
-    sourceCodeHref: "https://github.com/BUMBAIYA/ManyGames",
-    liveWebsiteHref: "https://manygames.vercel.app",
+      "AI Chatbot that can assist you in movie suggestions, games, and quizzes. It uses open source APIs to get data.",
+    sourceCodeHref: "https://github.com/BUMBAIYA/ManyGame",
+    liveWebsiteHref: "https://manygames.vercel.ap",
   },
   {
     name: "My portfolio",
